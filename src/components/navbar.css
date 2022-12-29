@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #07080e;
+  color: #fff;
+  border-bottom: solid 1px rgb(44, 44, 44);
+}
+
+.navbar-link {
+  display: block;
+  padding: 20px;
+  margin: 0 20px; /* add a margin of 10px between each link */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #6d6d70;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background-color: #07080e;
+}
+
+.navbar-links-div{
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #07080e;
+}
+
+.logo-div{
+  display: flex;
+  margin-left: 50px;
+  text-transform: uppercase;
+  background-color: #07080e;
+}
+
+.navbar-link-account{
+  display: block;
+  padding: 20px;
+  margin: 0 20px; /* add a margin of 10px between each link */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #6d6d70;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background-color: #07080e;
+}
+
+.navbar-link-logo{
+  padding: 20px;
+  margin: 0 0px; /* add a margin of 10px between each link */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #6d6d70;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background-color: #07080e;
+  letter-spacing: 1px;
+}
+
+.navbar-link-logo:hover{
+  color: #838388;
+}
+
+.navbar-link:hover,
+.navbar-link-account:hover {
+  color: #fff;
+  cursor: pointer;
+}

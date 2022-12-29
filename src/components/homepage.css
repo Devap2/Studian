@@ -1,0 +1,344 @@
+*{
+  background-color: #07080e;
+}
+
+.home-page{
+  padding: 0;
+  margin: 0;
+  font-family: 'Hind', sans-serif;
+  background-color: #07080e;
+  scroll-behavior: smooth;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  background-color: #07080e;
+}
+
+/* Style the header */
+
+.header-section{
+  height: 90vh;
+}
+
+.header-parent {
+  height: 550px;
+  background-color: #07080e;
+}
+
+.header-text-child{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  background-color: #07080e;
+}
+
+.title {
+  float: left; /* Align the heading to the left */
+  margin-left: 350px;
+  margin-top: 200px;
+  font-size: 50px;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #fff;
+  background-color: #07080e;
+}
+
+#title-span{
+  color: #6684ec;
+}
+
+.subtitle{
+  float: left;
+  margin-left: 350px;
+  text-align: left;
+  margin-top: 0px;
+  padding-left: 5px;
+  color: #616264;
+  font-size: 20px;
+  margin-bottom: 5px;
+  background-color: #07080e;
+}
+
+.header-button{
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 40px;
+  background-color: #6684ec;
+  border-radius: 6px;
+  border: solid 1px black;
+  float: left;
+  margin-left: 350px;
+  margin-top: 40px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.header-button:hover{
+  background-color: #4d6ad1;
+  cursor: pointer;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+/* Add a new image element for the header */
+.header-image {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 420px;
+  margin-top: 200px;
+  background-color: #07080e;
+}
+
+.header-image-child{
+  float: right;
+  background-color: #07080e;
+}
+
+.header-arrow-child{
+  clear: both;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.arrow-down{
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
+
+.arrow-down:hover{
+  cursor: pointer;
+}
+
+/* Style the information section */
+
+.information {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.information h1{
+  font-size: 18px;
+  color: #b0b1b2;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #07080e;
+}
+
+.information p{
+  color: #616264;
+  margin-bottom: 50px;
+}
+
+.information-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+  
+/* Style the features section */
+
+#feature-header{
+  font-size: 18px;
+  color: #b0b1b2;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #07080e;
+}
+
+.features-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1000px; /* Set the width of the container to 600px */
+  margin: 0 auto; /* Center the container horizontally */
+  background-color: #07080e;
+  margin-bottom: 100px;
+}
+
+.feature {
+  width: calc(50% - 10px); /* Adjust the width to fit 2 in a row */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid rgb(54, 54, 54);
+  border-radius: 10px;
+  color: #616264;
+  background-color: #07080e;
+}
+
+#feature-title{
+  background-color: #07080e;
+}
+
+.contact-title {
+  font-size: 18px;
+  color: #b0b1b2;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #07080e;
+}
+
+/* Style the contact section */
+.contact {
+  display: flex;
+  flex-direction: column; /* Change the layout to use a column instead of a row */
+  align-items: flex-start;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the contents vertically */
+  align-items: center; /* Center the contents horizontally */
+  background-color: #07080e;
+  color: #616264;
+  font-size: 20px;
+}
+  
+.contact-form {
+  width: 40%;
+  background-color: #07080e;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  background-color: #07080e;
+  text-align: center;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(54, 54, 54);
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.contact-form button[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.map {
+  width: 40%;
+  height: 400px;
+  background-color: #07080e;
+}
+
+/* Add some styling to the footer */
+footer {
+  background-color: #07080e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #616264;
+}
+
+/* Style the list of links */
+.footer-links {
+  display: flex;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  margin-right: 30px;
+  color: #616264;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  scroll-behavior: smooth;
+}
+
+/* Style the social links */
+
+/* Add some hover effects to the links */
+.footer-links a:hover,
+.social-links a:hover {
+  color: gray;
+  scroll-behavior: smooth;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  background-color: #07080e;
+}
+
+.social-link {
+  margin-left: 20px;
+  background-color: #07080e;
+}
+
+.social-link-icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #555;
+  transition: all 0.3s ease;
+}
+
+.social-link-icon:hover {
+  background-color: #777;
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #07080e;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #17181f;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  #191a22;
+}
+  

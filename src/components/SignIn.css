@@ -1,0 +1,80 @@
+/* Define the styling for the form container */
+
+.login-form {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+/* Define the styling for the form heading */
+.login-form h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b0b1b2;
+}
+
+/* Define the styling for the form inputs */
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 75%;
+  /*text-align: center;*/
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: rgb(201, 201, 201);
+}
+
+/* Define the styling for the form button */
+.login-form button[type="submit"] {
+  width: 75%;
+  border: none;
+  border-radius: 3px;
+  background-color: #248aff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 0;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+
+/* Add some hover effect to the button */
+.login-form button[type="submit"]:hover {
+  background-color: #277ddf;
+}
+
+#sign-up-p{
+  color: #818181;
+  margin-top: 30px;
+}
+
+#sign-up-link{
+  color: #56ad62;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+#sign-out-button{
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: #248aff;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 200px;
+}
+  
